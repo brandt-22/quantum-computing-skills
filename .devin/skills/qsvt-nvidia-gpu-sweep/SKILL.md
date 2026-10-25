@@ -47,3 +47,13 @@ Full reference implementation and conventions: `cfd_qsvt_reference` (NumPy; incl
 
 ## Results from the B300 run
 See `RESULTS.md` next to this file.
+
+## Gate-level and time-boxed sweeps (added after the B300 experiments 1-3)
+Code, reports and results: https://github.com/brandt-22/qsvt-b300-nvidia-experiments (`gate_level/`, `reports/`).
+* **Validate before any sweep** with small-N checks against a NumPy reference (`validate_gate.py`): they caught a wrong shift direction, a non-identity branch, and a mis-set tolerance (pyqsp reproduces the polynomial only to ~1e-4) before hours of runtime were spent.
+* **The earlier AMD sparse script's `increment_circuit` is a decrement.** Increment = flip bit i MSB-first controlled on all lower bits; decrement = the reverse order. Only matters for non-symmetric matrices.
+* **Real-part extraction with an extra ancilla** (H on f; PCPhase(phi) plus f-controlled PCPhase(-2 phi) after every block-encoding call; H on f) gives (s+ + s-)/2 in ONE circuit run, half the gates of two runs.
+* **Exact per-entry coefficients cost a multiplexed rotation** (2^(index+system qubits) terms per call, Gray-code RY/CNOT built once and reused). Averaged coefficients are 100-300x cheaper on the GPU but solve a different matrix (7-53 % error on the OpenFOAM momentum matrices).
+* **First-call GPU time is warm-up** (about 0.2 s); a second call of the same small circuit takes milliseconds. Report both. GPU time becomes the bottleneck only at about 28+ qubits (state vector size doubles per qubit); one B300 (275 GB) reached 34 qubits (256 GiB state vector).
+* **Dense N-sweeps are CPU-bound** (fusing the QSVT unitary on the CPU is 80-99 % of the time); the host CPU/container CPU cap, not the accelerator, decides how far they get.
+* **Tooling:** `pscp` takes ONE remote source per call; PowerShell does not support `<` redirection (upload helper scripts with `pscp`); write long jobs as a driver script, start it detached (`nohup`) and poll with short calls; run each sweep value as its own process with `timeout --signal=KILL` and stop the sweep at the first run over the limit.
