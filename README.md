@@ -22,6 +22,10 @@ OpenFOAM. See the companion experiment/code repo:
   linear-algebra/quantum-computing tools. Includes a working solver-patch
   approach (simpler than the third-party `openfoam-matrix-export` library,
   which has an awkward nested git-submodule dependency chain).
+- **`qsvt-nvidia-gpu-sweep`** - Run the single-GPU QSVT linear-solve sweep on an NVIDIA server (tested on B300, compute capability 10.3) inside a
+  container without touching anything already on the host: password SSH from Windows, read-only recon, reusing an existing image, persisting
+  pip libraries outside the container (`--dry-run --report` then `--no-deps --target`), PennyLane `lightning.gpu`, a time-boxed sweep.
+  Companion code/results: [qsvt-b300-nvidia-experiments](https://github.com/brandt-22/qsvt-b300-nvidia-experiments) (private).
 
 ## Installation
 

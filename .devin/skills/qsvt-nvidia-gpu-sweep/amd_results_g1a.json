@@ -1,0 +1,498 @@
+[
+ {
+  "matrix": "case07_n32_nu0.01_U1_Ux_call1",
+  "N": 1024,
+  "qubits": 11,
+  "kappa": 13.38742955231298,
+  "degree": 135,
+  "device": "lightning.amdgpu",
+  "p_success": 0.011254086393316697,
+  "rel_err_direction": 0.005583499480250021,
+  "timings": {
+   "classical_prep_s": 0.5261595249176025,
+   "block_encode_s": 0.4178645610809326,
+   "qsvt_plus_s": 34.24642992019653,
+   "qsvt_minus_s": 33.6099054813385,
+   "total_s": 68.8045654296875,
+   "classical_spsolve_s": 0.007749319076538086
+  },
+  "rocr_visible_devices": "6",
+  "hip_visible_devices": null,
+  "host": "4837cf944473",
+  "job": {
+   "matrix": "case07_n32_nu0.01_U1_Ux_call1",
+   "device": "lightning.amdgpu",
+   "index": 12
+  },
+  "ok": true,
+  "gpu_uuid": "GPU-0d9d790fc2a4ddd3",
+  "job_id": "493b75fb06c3",
+  "t_start": 1792387498.4413393,
+  "t_end": 1792387569.2488244
+ },
+ {
+  "matrix": "case02_n32_nu0.001_U2_Ux_call1",
+  "N": 1024,
+  "qubits": 11,
+  "kappa": 1.6374768324747806,
+  "degree": 17,
+  "device": "lightning.amdgpu",
+  "p_success": 0.14869719596783565,
+  "rel_err_direction": 0.0034879250536286014,
+  "timings": {
+   "classical_prep_s": 0.40912294387817383,
+   "block_encode_s": 0.41571664810180664,
+   "qsvt_plus_s": 5.265440940856934,
+   "qsvt_minus_s": 4.519450902938843,
+   "total_s": 10.613791942596436,
+   "classical_spsolve_s": 0.007736921310424805
+  },
+  "rocr_visible_devices": "6",
+  "hip_visible_devices": null,
+  "host": "294b88c056c8",
+  "job": {
+   "matrix": "case02_n32_nu0.001_U2_Ux_call1",
+   "device": "lightning.amdgpu",
+   "index": 2
+  },
+  "ok": true,
+  "gpu_uuid": "GPU-0d9d790fc2a4ddd3",
+  "job_id": "54c7095aa4de",
+  "t_start": 1792387573.4176269,
+  "t_end": 1792387586.0187001
+ },
+ {
+  "matrix": "case08_n32_nu0.01_U2_Ux_call11",
+  "N": 1024,
+  "qubits": 11,
+  "kappa": 7.287623819516471,
+  "degree": 73,
+  "device": "lightning.amdgpu",
+  "p_success": 0.04506561680952113,
+  "rel_err_direction": 0.0064029015445119155,
+  "timings": {
+   "classical_prep_s": 0.4811286926269531,
+   "block_encode_s": 0.43801236152648926,
+   "qsvt_plus_s": 18.99634599685669,
+   "qsvt_minus_s": 18.26751971244812,
+   "total_s": 38.187204360961914,
+   "classical_spsolve_s": 0.007707834243774414
+  },
+  "rocr_visible_devices": "6",
+  "hip_visible_devices": null,
+  "host": "fadcad6782ad",
+  "job": {
+   "matrix": "case08_n32_nu0.01_U2_Ux_call11",
+   "device": "lightning.amdgpu",
+   "index": 15
+  },
+  "ok": true,
+  "gpu_uuid": "GPU-0d9d790fc2a4ddd3",
+  "job_id": "36f901ec54b9",
+  "t_start": 1792387590.4034374,
+  "t_end": 1792387630.5827112
+ },
+ {
+  "matrix": "case02_n32_nu0.001_U2_Ux_call11",
+  "N": 1024,
+  "qubits": 11,
+  "kappa": 1.637474611135512,
+  "degree": 17,
+  "device": "lightning.amdgpu",
+  "p_success": 0.15926820389935345,
+  "rel_err_direction": 0.003819954497497832,
+  "timings": {
+   "classical_prep_s": 0.42830634117126465,
+   "block_encode_s": 0.43195533752441406,
+   "qsvt_plus_s": 5.2898406982421875,
+   "qsvt_minus_s": 4.546026706695557,
+   "total_s": 10.70061445236206,
+   "classical_spsolve_s": 0.007709503173828125
+  },
+  "rocr_visible_devices": "6",
+  "hip_visible_devices": null,
+  "host": "3f3f4e9091ef",
+  "job": {
+   "matrix": "case02_n32_nu0.001_U2_Ux_call11",
+   "device": "lightning.amdgpu",
+   "index": 3
+  },
+  "ok": true,
+  "gpu_uuid": "GPU-0d9d790fc2a4ddd3",
+  "job_id": "cc4fd3ca1723",
+  "t_start": 1792387635.4099052,
+  "t_end": 1792387648.0988677
+ },
+ {
+  "matrix": "case06_n32_nu0.005_U2_Ux_call11",
+  "N": 1024,
+  "qubits": 11,
+  "kappa": 4.167860112364109,
+  "degree": 43,
+  "device": "lightning.amdgpu",
+  "p_success": 0.0793742173452212,
+  "rel_err_direction": 0.0046259055088065295,
+  "timings": {
+   "classical_prep_s": 0.4139883518218994,
+   "block_encode_s": 0.43499207496643066,
+   "qsvt_plus_s": 11.56923794746399,
+   "qsvt_minus_s": 10.854336500167847,
+   "total_s": 23.2768075466156,
+   "classical_spsolve_s": 0.0073397159576416016
+  },
+  "rocr_visible_devices": "6",
+  "hip_visible_devices": null,
+  "host": "fd642883aa88",
+  "job": {
+   "matrix": "case06_n32_nu0.005_U2_Ux_call11",
+   "device": "lightning.amdgpu",
+   "index": 11
+  },
+  "ok": true,
+  "gpu_uuid": "GPU-0d9d790fc2a4ddd3",
+  "job_id": "95cc13652720",
+  "t_start": 1792387652.4182456,
+  "t_end": 1792387677.6517715
+ },
+ {
+  "matrix": "case05_n32_nu0.005_U1_Ux_call1",
+  "N": 1024,
+  "qubits": 11,
+  "kappa": 7.287704672226954,
+  "degree": 73,
+  "device": "lightning.amdgpu",
+  "p_success": 0.02591059093421139,
+  "rel_err_direction": 0.006757275365254629,
+  "timings": {
+   "classical_prep_s": 0.4139425754547119,
+   "block_encode_s": 0.4157116413116455,
+   "qsvt_plus_s": 18.977314233779907,
+   "qsvt_minus_s": 18.207640647888184,
+   "total_s": 38.01885652542114,
+   "classical_spsolve_s": 0.007577419281005859
+  },
+  "rocr_visible_devices": "6",
+  "hip_visible_devices": null,
+  "host": "aef107af58aa",
+  "job": {
+   "matrix": "case05_n32_nu0.005_U1_Ux_call1",
+   "device": "lightning.amdgpu",
+   "index": 8
+  },
+  "ok": true,
+  "gpu_uuid": "GPU-0d9d790fc2a4ddd3",
+  "job_id": "c66889fefa9e",
+  "t_start": 1792387682.4697328,
+  "t_end": 1792387722.480615
+ },
+ {
+  "matrix": "case03_n32_nu0.002_U1_Ux_call1",
+  "N": 1024,
+  "qubits": 11,
+  "kappa": 3.5381921761097463,
+  "degree": 35,
+  "device": "lightning.amdgpu",
+  "p_success": 0.06460954268276344,
+  "rel_err_direction": 0.00633802250534776,
+  "timings": {
+   "classical_prep_s": 0.5168235301971436,
+   "block_encode_s": 0.4247157573699951,
+   "qsvt_plus_s": 9.621095657348633,
+   "qsvt_minus_s": 8.965251922607422,
+   "total_s": 19.532187938690186,
+   "classical_spsolve_s": 0.007465839385986328
+  },
+  "rocr_visible_devices": "6",
+  "hip_visible_devices": null,
+  "host": "201f27a6a372",
+  "job": {
+   "matrix": "case03_n32_nu0.002_U1_Ux_call1",
+   "device": "lightning.amdgpu",
+   "index": 4
+  },
+  "ok": true,
+  "gpu_uuid": "GPU-0d9d790fc2a4ddd3",
+  "job_id": "a6c4981e56e9",
+  "t_start": 1792387727.4343865,
+  "t_end": 1792387748.9492064
+ },
+ {
+  "matrix": "case08_n32_nu0.01_U2_Ux_call1",
+  "N": 1024,
+  "qubits": 11,
+  "kappa": 7.287704672226954,
+  "degree": 73,
+  "device": "lightning.amdgpu",
+  "p_success": 0.02591059093421139,
+  "rel_err_direction": 0.006757275365254629,
+  "timings": {
+   "classical_prep_s": 0.4265434741973877,
+   "block_encode_s": 0.4133927822113037,
+   "qsvt_plus_s": 19.09145188331604,
+   "qsvt_minus_s": 18.351076364517212,
+   "total_s": 38.28672170639038,
+   "classical_spsolve_s": 0.0077304840087890625
+  },
+  "rocr_visible_devices": "6",
+  "hip_visible_devices": null,
+  "host": "6bcf5f0342c8",
+  "job": {
+   "matrix": "case08_n32_nu0.01_U2_Ux_call1",
+   "device": "lightning.amdgpu",
+   "index": 14
+  },
+  "ok": true,
+  "gpu_uuid": "GPU-0d9d790fc2a4ddd3",
+  "job_id": "5abd516ed370",
+  "t_start": 1792387753.410346,
+  "t_end": 1792387793.687959
+ },
+ {
+  "matrix": "case05_n32_nu0.005_U1_Ux_call11",
+  "N": 1024,
+  "qubits": 11,
+  "kappa": 7.287623819516464,
+  "degree": 73,
+  "device": "lightning.amdgpu",
+  "p_success": 0.045065616809523416,
+  "rel_err_direction": 0.006402901544506496,
+  "timings": {
+   "classical_prep_s": 0.43763136863708496,
+   "block_encode_s": 0.45203733444213867,
+   "qsvt_plus_s": 19.15094757080078,
+   "qsvt_minus_s": 18.427929878234863,
+   "total_s": 38.472822427749634,
+   "classical_spsolve_s": 0.007761240005493164
+  },
+  "rocr_visible_devices": "6",
+  "hip_visible_devices": null,
+  "host": "870dd1a7984f",
+  "job": {
+   "matrix": "case05_n32_nu0.005_U1_Ux_call11",
+   "device": "lightning.amdgpu",
+   "index": 9
+  },
+  "ok": true,
+  "gpu_uuid": "GPU-0d9d790fc2a4ddd3",
+  "job_id": "da601fa17397",
+  "t_start": 1792387798.4378064,
+  "t_end": 1792387838.9095469
+ },
+ {
+  "matrix": "case01_n32_nu0.001_U1_Ux_call1",
+  "N": 1024,
+  "qubits": 11,
+  "kappa": 2.2729951405602797,
+  "degree": 23,
+  "device": "lightning.amdgpu",
+  "p_success": 0.10611135817521095,
+  "rel_err_direction": 0.004807941783956649,
+  "timings": {
+   "classical_prep_s": 0.4345977306365967,
+   "block_encode_s": 0.4091029167175293,
+   "qsvt_plus_s": 6.699617385864258,
+   "qsvt_minus_s": 5.973071336746216,
+   "total_s": 13.520580530166626,
+   "classical_spsolve_s": 0.007703065872192383
+  },
+  "rocr_visible_devices": "6",
+  "hip_visible_devices": null,
+  "host": "9344f8c5cc88",
+  "job": {
+   "matrix": "case01_n32_nu0.001_U1_Ux_call1",
+   "device": "lightning.amdgpu",
+   "index": 0
+  },
+  "ok": true,
+  "gpu_uuid": "GPU-0d9d790fc2a4ddd3",
+  "job_id": "526eb4eccddb",
+  "t_start": 1792387843.412803,
+  "t_end": 1792387858.9197567
+ },
+ {
+  "matrix": "case04_n32_nu0.002_U2_Ux_call1",
+  "N": 1024,
+  "qubits": 11,
+  "kappa": 2.2729951405602797,
+  "degree": 23,
+  "device": "lightning.amdgpu",
+  "p_success": 0.10611135817521095,
+  "rel_err_direction": 0.004807941783956649,
+  "timings": {
+   "classical_prep_s": 0.4300723075866699,
+   "block_encode_s": 0.4080173969268799,
+   "qsvt_plus_s": 6.696032762527466,
+   "qsvt_minus_s": 6.0039567947387695,
+   "total_s": 13.54208254814148,
+   "classical_spsolve_s": 0.007665395736694336
+  },
+  "rocr_visible_devices": "6",
+  "hip_visible_devices": null,
+  "host": "c0b6535f8eda",
+  "job": {
+   "matrix": "case04_n32_nu0.002_U2_Ux_call1",
+   "device": "lightning.amdgpu",
+   "index": 6
+  },
+  "ok": true,
+  "gpu_uuid": "GPU-0d9d790fc2a4ddd3",
+  "job_id": "b4f557db8d59",
+  "t_start": 1792387863.4131322,
+  "t_end": 1792387878.9396222
+ },
+ {
+  "matrix": "case06_n32_nu0.005_U2_Ux_call1",
+  "N": 1024,
+  "qubits": 11,
+  "kappa": 4.167888762255776,
+  "degree": 43,
+  "device": "lightning.amdgpu",
+  "p_success": 0.053214427335116235,
+  "rel_err_direction": 0.004835442306920277,
+  "timings": {
+   "classical_prep_s": 0.41170501708984375,
+   "block_encode_s": 0.4071633815765381,
+   "qsvt_plus_s": 11.616076469421387,
+   "qsvt_minus_s": 10.903481721878052,
+   "total_s": 23.34256911277771,
+   "classical_spsolve_s": 0.0075876712799072266
+  },
+  "rocr_visible_devices": "6",
+  "hip_visible_devices": null,
+  "host": "2a152c48977e",
+  "job": {
+   "matrix": "case06_n32_nu0.005_U2_Ux_call1",
+   "device": "lightning.amdgpu",
+   "index": 10
+  },
+  "ok": true,
+  "gpu_uuid": "GPU-0d9d790fc2a4ddd3",
+  "job_id": "1a0b6aadc243",
+  "t_start": 1792387883.4177208,
+  "t_end": 1792387908.7475824
+ },
+ {
+  "matrix": "case03_n32_nu0.002_U1_Ux_call11",
+  "N": 1024,
+  "qubits": 11,
+  "kappa": 3.5381719614333353,
+  "degree": 35,
+  "device": "lightning.amdgpu",
+  "p_success": 0.09117129662754896,
+  "rel_err_direction": 0.006076383316231926,
+  "timings": {
+   "classical_prep_s": 0.38973569869995117,
+   "block_encode_s": 0.42989635467529297,
+   "qsvt_plus_s": 9.751292943954468,
+   "qsvt_minus_s": 8.914806127548218,
+   "total_s": 19.49020552635193,
+   "classical_spsolve_s": 0.007722377777099609
+  },
+  "rocr_visible_devices": "6",
+  "hip_visible_devices": null,
+  "host": "b2f8e49d6e1b",
+  "job": {
+   "matrix": "case03_n32_nu0.002_U1_Ux_call11",
+   "device": "lightning.amdgpu",
+   "index": 5
+  },
+  "ok": true,
+  "gpu_uuid": "GPU-0d9d790fc2a4ddd3",
+  "job_id": "61e78ed2ade9",
+  "t_start": 1792387913.4300823,
+  "t_end": 1792387934.9098396
+ },
+ {
+  "matrix": "case01_n32_nu0.001_U1_Ux_call11",
+  "N": 1024,
+  "qubits": 11,
+  "kappa": 2.2729884060338033,
+  "degree": 23,
+  "device": "lightning.amdgpu",
+  "p_success": 0.1268998662753848,
+  "rel_err_direction": 0.004489660720548901,
+  "timings": {
+   "classical_prep_s": 0.422116756439209,
+   "block_encode_s": 0.43517518043518066,
+   "qsvt_plus_s": 6.7019031047821045,
+   "qsvt_minus_s": 5.993165016174316,
+   "total_s": 13.556736946105957,
+   "classical_spsolve_s": 0.0077152252197265625
+  },
+  "rocr_visible_devices": "6",
+  "hip_visible_devices": null,
+  "host": "ad57925bdc56",
+  "job": {
+   "matrix": "case01_n32_nu0.001_U1_Ux_call11",
+   "device": "lightning.amdgpu",
+   "index": 1
+  },
+  "ok": true,
+  "gpu_uuid": "GPU-0d9d790fc2a4ddd3",
+  "job_id": "0fdd6a7cb7a6",
+  "t_start": 1792387939.434363,
+  "t_end": 1792387954.9641283
+ },
+ {
+  "matrix": "case04_n32_nu0.002_U2_Ux_call11",
+  "N": 1024,
+  "qubits": 11,
+  "kappa": 2.2729884060338033,
+  "degree": 23,
+  "device": "lightning.amdgpu",
+  "p_success": 0.12689986627538508,
+  "rel_err_direction": 0.004489660720546949,
+  "timings": {
+   "classical_prep_s": 0.4186592102050781,
+   "block_encode_s": 0.4351084232330322,
+   "qsvt_plus_s": 6.727373838424683,
+   "qsvt_minus_s": 5.986260175704956,
+   "total_s": 13.571596145629883,
+   "classical_spsolve_s": 0.007702827453613281
+  },
+  "rocr_visible_devices": "6",
+  "hip_visible_devices": null,
+  "host": "7cac9211f729",
+  "job": {
+   "matrix": "case04_n32_nu0.002_U2_Ux_call11",
+   "device": "lightning.amdgpu",
+   "index": 7
+  },
+  "ok": true,
+  "gpu_uuid": "GPU-0d9d790fc2a4ddd3",
+  "job_id": "38b170d74d88",
+  "t_start": 1792387959.4291942,
+  "t_end": 1792387974.9859428
+ },
+ {
+  "matrix": "case07_n32_nu0.01_U1_Ux_call11",
+  "N": 1024,
+  "qubits": 11,
+  "kappa": 13.387228602175337,
+  "degree": 135,
+  "device": "lightning.amdgpu",
+  "p_success": 0.02054192187580898,
+  "rel_err_direction": 0.005850785322960803,
+  "timings": {
+   "classical_prep_s": 0.5287399291992188,
+   "block_encode_s": 0.4122121334075928,
+   "qsvt_plus_s": 34.40000104904175,
+   "qsvt_minus_s": 33.56566047668457,
+   "total_s": 68.9110414981842,
+   "classical_spsolve_s": 0.007790803909301758
+  },
+  "rocr_visible_devices": "6",
+  "hip_visible_devices": null,
+  "host": "9819f8e5d21d",
+  "job": {
+   "matrix": "case07_n32_nu0.01_U1_Ux_call11",
+   "device": "lightning.amdgpu",
+   "index": 13
+  },
+  "ok": true,
+  "gpu_uuid": "GPU-0d9d790fc2a4ddd3",
+  "job_id": "64ee506c1e09",
+  "t_start": 1792387979.4148393,
+  "t_end": 1792388050.3178523
+ }
+]
